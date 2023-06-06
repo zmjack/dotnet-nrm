@@ -22,7 +22,7 @@ namespace DotNetNrm
                 SelectNpmRegistry();
             });
 
-            var pingCommand = new Command("ping", "Show the response time for one or all registries.");
+            var pingCommand = new Command("ping", "Show the response time for all registries.");
             rootCommand.AddCommand(pingCommand);
             pingCommand.SetHandler(context =>
             {
