@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "DotNetNrm": {
+      "commandName": "Project"
+    },
+    "DotNetNrm.ls": {
+      "commandName": "Project",
+      "commandLineArgs": "ls"
+    },
+    "DotNetNrm.ping": {
+      "commandName": "Project",
+      "commandLineArgs": "ping"
+    },
+    "DotNetNrm.help": {
+      "commandName": "Project",
+      "commandLineArgs": "--help"
+    }
+  }
+}
