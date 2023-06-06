@@ -13,6 +13,8 @@ namespace NStandard.Windows
                 select file
             ).FirstOrDefault();
 
+            if (exe is null) throw new ArgumentException($"The file ({fileName}) can not be found.", nameof(fileName));
+
             var process = Process.Start(new ProcessStartInfo
             {
                 FileName = exe,
