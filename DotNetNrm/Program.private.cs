@@ -14,7 +14,7 @@ namespace DotNetNrm
             {
                 var _top = top + option;
                 var context = ConsoleContext.Current;
-                Console.WriteLine(_top);
+
                 Console.SetCursorPosition(0, _top);
                 Console.ForegroundColor = highlight ? ConsoleColor.Green : context.ForegroundColor;
                 Console.WriteLine(GetText(source));
