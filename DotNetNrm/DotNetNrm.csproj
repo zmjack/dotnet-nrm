@@ -16,7 +16,7 @@
     <Copyright>Copyright © nstandard.net 2023</Copyright>
     <PackageProjectUrl>https://github.com/zmjack/dotnet-nrm</PackageProjectUrl>
     <PackageIconUrl></PackageIconUrl>
-    <Version>0.1.2</Version>
+    <Version>0.1.3</Version>
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageType>DotnetCliTool</PackageType>
