@@ -16,6 +16,12 @@ namespace DotNetNrm
 
         static void Main(string[] args)
         {
+            if (OperatingSystem.IsWindows()) throw new PlatformNotSupportedException("Only windows is supported.");
+
+#pragma warning disable CA1416 // Validate platform compatibility
+            Console.BufferHeight = 9001;
+#pragma warning restore CA1416 // Validate platform compatibility
+
             var rootCommand = new RootCommand(".NET tool of NPM registry manager.");
             rootCommand.SetHandler(context =>
             {

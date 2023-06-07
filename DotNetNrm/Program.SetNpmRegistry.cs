@@ -14,6 +14,7 @@ namespace DotNetNrm
             using (ConsoleContext.Begin())
             {
                 Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write($"{registry.Name} ");
                 Console.WriteLine(registry.Url);
             }
         }

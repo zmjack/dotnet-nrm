@@ -16,6 +16,7 @@ namespace DotNetNrm
                 var optionTop = Console.CursorTop;
                 foreach (var (index, source) in _registries.AsIndexValuePairs())
                 {
+                    Console.WriteLine();
                     Highlight(optionTop, source, index, false);
                 }
 
